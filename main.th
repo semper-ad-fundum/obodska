@@ -1,0 +1,21 @@
+encoding  utf-8
+survey main  -title "Obodska cave, Montenegro"
+
+input "obodska.th"
+
+#input "surveys/nasdem.th"
+
+input obodska.th2
+
+map map
+  scrap10
+endmap
+
+input obodska_ext.th2
+
+map map_ext
+ scrap3
+endmap
+
+endsurvey
+
